@@ -1,0 +1,6 @@
+train: C:\Users\EIR\Downloads\ML MODEL\helmet\data\train
+val: C:\Users\EIR\Downloads\ML MODEL\helmet\data\val
+
+nc: 2
+
+names: ["with helmet", "without helmet"]
