@@ -47,36 +47,36 @@ The training process involves monitoring several key metrics to ensure the model
 
 The model achieves high precision, recall, and mAP scores, making it suitable for applications requiring accurate object detection capabilities.
 
-![Training and Validation Losses Over Time](/Users/hafismuhammed/Desktop/SafeSync/ML/safesync-helmet-detection/yolo11n/runs/detect/train/training_plots/loss_curves.png)
+![Training and Validation Losses Over Time](https://github.com/Haafii/safeSync-helmet-detection/blob/main/yolo11n/runs/detect/train/training_plots/loss_curves.png)
 
 ## Learning Rate Schedule
 
-![Learning Rate Schedule](/Users/hafismuhammed/Desktop/SafeSync/ML/safesync-helmet-detection/yolo11n/runs/detect/train/training_plots/learning_rates.png)
+![Learning Rate Schedule](https://github.com/Haafii/safeSync-helmet-detection/blob/main/yolo11n/runs/detect/train/training_plots/learning_rates.png)
 
 The learning rate is adjusted throughout the training epochs to optimize the convergence behavior of the model. The schedule starts with a higher learning rate that gradually decreases, facilitating a more refined model tuning towards the end of the training process.
 
 ## Loss Distributions
 
-![Loss Distributions](/Users/hafismuhammed/Desktop/SafeSync/ML/safesync-helmet-detection/yolo11n/runs/detect/train/training_plots/loss_distributions.png)
+![Loss Distributions](https://github.com/Haafii/safeSync-helmet-detection/blob/main/yolo11n/runs/detect/train/training_plots/loss_distributions.png)
 
 Box loss, class loss, and DFL (Distribution Focal Loss) are crucial components of the model's training process. The distributions of these losses provide insights into the model's learning behavior and areas that might require further tuning.
 
 ## Correlation Heatmap
 
-![Correlation Heatmap](/Users/hafismuhammed/Desktop/SafeSync/ML/safesync-helmet-detection/yolo11n/runs/detect/train/training_plots/correlation_heatmap.png)
+![Correlation Heatmap](https://github.com/Haafii/safeSync-helmet-detection/blob/main/yolo11n/runs/detect/train/training_plots/correlation_heatmap.png)
 
 The correlation heatmap illustrates the relationships between different training metrics. High correlations between metrics like box loss and DFL loss suggest that improvements in one area are likely to positively impact the other.
 
 ## Cumulative Training Time
 
-![Cumulative Training Time](/Users/hafismuhammed/Desktop/SafeSync/ML/safesync-helmet-detection/yolo11n/runs/detect/train/training_plots/training_time.png)
+![Cumulative Training Time](https://github.com/Haafii/safeSync-helmet-detection/blob/main/yolo11n/runs/detect/train/training_plots/training_time.png)
 
 The cumulative training time graph provides a visual representation of the time invested in training the model across epochs. This helps in understanding the resource requirements for model training.
 
 ## F1-Confidence and Precision-Confidence Curves
 
-![F1-Confidence Curve](/Users/hafismuhammed/Desktop/SafeSync/ML/safesync-helmet-detection/yolo11n/runs/detect/train/F1_curve.png)
-![Precision-Confidence Curve](/Users/hafismuhammed/Desktop/SafeSync/ML/safesync-helmet-detection/yolo11n/runs/detect/train/P_curve.png)
+![F1-Confidence Curve](https://github.com/Haafii/safeSync-helmet-detection/blob/main/yolo11n/runs/detect/train/F1_curve.png)
+![Precision-Confidence Curve](https://github.com/Haafii/safeSync-helmet-detection/blob/main/yolo11n/runs/detect/train/P_curve.png)
 
 These curves depict the model's performance across different confidence thresholds. They are instrumental in understanding how the model's predictions vary with changes in confidence levels.
 
