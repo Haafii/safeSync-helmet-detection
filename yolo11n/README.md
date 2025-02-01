@@ -41,7 +41,7 @@ The training process involves monitoring several key metrics to ensure the model
 - **mAP50**: The mean Precision at IoU threshold of 0.5.
 - **mAP50-95**: The mean Average Precision across different IoU thresholds ranging from 0.5 to 0.95.
 
-![Model Metrics Over Time](yolo11n/runs/detect/train/training_plots/metrics.png)
+![Model Metrics Over Time](https://github.com/Haafii/safeSync-helmet-detection/blob/main/yolo11n/runs/detect/train/training_plots/metrics.png)
 
 ## Performance
 
