@@ -18,7 +18,7 @@ The model is trained on a dataset comprising images labeled with the presence or
 
 The dataset is divided into two main subsets: training and validation. Each subset contains images labeled according to the presence or absence of a helmet.
 
-![Dataset Composition](/Users/hafismuhammed/Desktop/SafeSync/ML/safesync-helmet-detection/yolo11n/plots/Dataset_class_distribution.png)
+![Dataset Composition](https://github.com/Haafii/safeSync-helmet-detection/blob/main/yolo11n/plots/Dataset_class_distribution.png)
 
 - **Training Dataset**
 
