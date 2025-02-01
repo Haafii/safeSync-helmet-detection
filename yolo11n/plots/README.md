@@ -1,4 +1,4 @@
-# YOLO Dataset Visualization
+# Dataset Visualization
 
 This repository is designed to help visualize and analyze the distribution of bounding boxes, class labels, and other key metrics in a YOLO-style dataset. The dataset is organized into `train` and `val` directories, with each directory containing `images` and `labels` subdirectories.
 
@@ -43,7 +43,7 @@ pip install matplotlib numpy tqdm
 
 To generate the visualizations, simply run the `visualize.py` script.
 
-1. Navigate to the `YOLO_Dataset` directory
+1. Navigate to the `Dataset` directory
 2. Run the Python script:
 
 ```bash
@@ -75,7 +75,7 @@ Each plot is saved as a PNG file with a filename indicating the dataset it corre
 After running the script, the `plots/` directory will contain files like:
 
 ```
-YOLO_Dataset/
+Dataset/
 │── plots/
 │   ├── Train Dataset_class_distribution.png
 │   ├── Train Dataset_bbox_size_distribution.png
